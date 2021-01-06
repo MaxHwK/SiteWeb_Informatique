@@ -1,0 +1,930 @@
+/*---------- COMMUN ----------*/
+
+#bodyCOM {
+  text-align: justify;
+  margin : 0;
+  font-family: Arial;
+  background: linear-gradient(#F1F1F1, grey);
+}
+
+#headerCOM {
+  overflow: hidden;
+  background-color: #333;
+  position: relative; top: 0;
+  margin-top:0;
+}
+
+#headerCOM nav li a {
+ display: block;
+ text-align: center;
+ text-decoration: none;
+ font-weight: bold;
+ cursor: grab;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+#headerCOM nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: salmon;
+}
+
+#headerCOM nav li {
+ float: left;
+}
+
+.white a {
+ background-color: #FFCCCC;
+ font-style: italic;
+ color: white;
+}
+
+.titre a {
+ color: white;
+}
+
+#headerCOM nav li a:hover {
+   background-color: #FFCCCC;
+   color: black;
+   font-style: italic;
+}
+
+#divCOM {
+  text-align : center;
+}
+
+#divCOM ul li {
+  display: inline-block;
+  border : 2px solid #4B444C;
+  background-color: salmon;
+  width: 160px;
+  height: 35px;
+  padding: 2%;
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+#divCOM li a {
+  text-align : center;
+  text-decoration : none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  cursor: grab;
+}
+
+#sectionCOM a:hover {
+  color:black;
+}
+
+#sectionCOM {
+  font-size: 1.1em;
+  line-height: 1.1em;
+  margin: auto;
+  width: 85%;
+  background-color: white;
+  padding: 20px;
+}
+
+.retour {
+  color : #4B444C;
+  background-image: url("Images/fusée.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  font-weight: bold;
+	border: 3px solid salmon;
+	background-color: rgba(255,255,255,0.6);
+	padding: 1%;
+	margin-left: 55%;
+	margin-bottom: 1%;
+	float: right;
+	position: fixed; bottom : 0;
+  cursor: grab;
+}
+
+.retour:hover {
+  color: black;
+  font-style: italic;
+}
+
+.footerCOM {
+  background-color: salmon;
+  margin: 1px;
+  padding: 1px;
+  margin: auto;
+}
+
+/*---------- CHARTE ----------*/
+
+#bodyHI {
+  text-align: justify;
+  margin : 0;
+  font-family: Arial;
+  background: linear-gradient(#F1F1F1, lightgrey);
+  margin-top: 0;
+}
+
+#Headercharte{
+  background-color: salmon;
+  margin-top:0;
+  padding: 1%;
+}
+
+#footcharte {
+  background-color: salmon;
+  display: block;
+  text-align: center;
+  padding: 35px 46px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footcharte a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+#footcharte a:hover{
+  color: black;
+  font-size: 27px;
+  text-decoration: underline;
+}
+
+#couleur{
+    padding-left: 10px;
+}
+
+#couleur img{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.pallette{
+  text-align : center;
+  vertical-align: middle;
+  padding : 5px;
+  border : 1px solid black;
+  width  : 110px;
+  height : 110px;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+#C1 {
+  background-color: rgba(0,0,0,0.20);
+}
+
+#C2 {
+  background-color: rgba(0,0,0,0.24);
+}
+
+#C3 {
+  background-color: rgba(88,88,88,0.40);
+}
+
+#C4{
+  background-color: salmon;
+}
+#C5{
+  background-color: RGBA(255,255,255,0.6);
+}
+
+#C6{
+  background-color: #FF9824;
+}
+
+#C7{
+  background-color: #FEBD73;
+}
+
+#C8{
+  background-color: #227DD3;
+}
+
+#C9{
+  background-color: #62B3FF;
+}
+
+#C10{
+  background-color:red;
+}
+
+#fusee img{
+  width: 300px;
+  height: 300px;
+  border:none;
+  margin-left: 1px;
+}
+
+/*---------- PLAN----------*/
+
+#menu-PS{
+  color : #ff8621;
+  margin-top : 5px;
+}
+
+#HGI-PS{
+  color : #ff290f;
+  margin-top : 5px;
+}
+
+#HGI2-PS{
+  color : #25ad4e;
+  margin-top : 5px;
+}
+
+#OS-PS{
+  color : #2571ad;
+  margin-top : 5px;
+}
+
+#LP-PS{
+  color : #fca599;
+  margin-top : 5px;
+}
+
+/*---------- MENU ----------*/
+
+#artMENU h3{
+  font-size: 1.4em;
+  margin-top: 0;
+  text-align: center;
+}
+
+#artMENU {
+  text-align: justify;
+  border: 4px solid salmon;
+  background-color: rgba(255,255,255,0.6);
+  padding: 20px;
+  margin: 20px;
+}
+
+li:hover{
+  background: lightgray;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.container {
+	margin: 0 auto;
+	margin-top: 50px;
+  margin-bottom: 75px;
+	position: relative;
+	width: 70%;
+	height: 0;
+	padding-bottom: 40%;
+	user-select: none;
+	background-color: #1c1c1c;
+	box-shadow: 0 11px 22px rgba(0, 0, 0, 0.20), 0 7px 7px rgba(0, 0, 0, 0.24);
+}
+.slide_img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+    z-index: -1;
+}
+.slide_img img{
+		width: 100%;
+		height: 100%;
+}
+#i1, #i2, #i3{
+  display: none;
+}
+.prev, .next {
+  width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: rgba(88,88,88,.4);
+	z-index: 99;
+}
+
+.next {
+	right: 0;
+}
+
+.prev {
+	left: 0;
+}
+
+.dots {
+  top: -5px;
+  width: 18px;
+  height: 18px;
+  margin: 0 4px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: rgba(0,0,0,.4);
+}
+
+#nav_slide{
+  width: 100%;
+  bottom: 12%;
+  height: 11px;
+  position: absolute;
+  text-align: center;
+  z-index: 99;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+	z-index: 9;
+}
+
+#i1:checked ~ #nav_slide #dot1,
+#i2:checked ~ #nav_slide #dot2,
+#i3:checked ~ #nav_slide #dot3{
+  background: salmon;
+}
+
+.texte {
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 5px;
+  width: auto;
+  text-align: center;
+  background-color: rgba(0,0,0,.4);
+	z-index: 9;
+}
+
+div a {
+  text-decoration: none;
+  color: white;
+}
+
+div a:hover {
+  text-decoration: underline;
+}
+
+#footerMENU {
+  background : salmon;
+  padding: 1px;
+  margin: 1px;
+  margin : auto;
+}
+
+#footerMENU .planch {
+  color : white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: grab;
+}
+
+#footerMENU .planch:hover {
+  color: black;
+  font-style: italic;
+}
+
+/*---------- MAXENCE ----------*/
+
+#titreHI {
+  text-align : center;
+  font-style : oblique;
+  text-transform : capitalize;
+  text-shadow: 1px 2px 3px black;
+  color : white;
+  border : 2px solid black;
+  padding : 2.5%;
+  background-image : url('Images/titre.jpg');
+  margin:8% 2% 2% 2%;
+  position: center;
+  box-shadow: 6px 6px 2px black;
+  font-size:1.4em;
+}
+
+.definition {
+  border: 2px solid black;
+  border-radius: 5px;
+  background: linear-gradient(to right, #F1F1F1, lightgrey);
+  margin: 2% 1% 2% 1%;
+  padding: 1%;
+  clear: both;
+  columns: 3;
+  column-gap : 20px;
+  column-rule: 3px dashed black;
+}
+
+.avantjc {
+  border: 4px double black;
+  background-color: white;
+  padding: 1%;
+  overflow: auto;
+  width: 40%;
+  min-height: 40px;
+  max-height: 250px;
+  float: left;
+  margin: 1% 5% 1% 5%;
+}
+
+.xvi {
+  border: 4px double black;
+  background-color: white;
+  padding: 1%;
+  overflow: auto;
+  width: 40%;
+  min-height: 40px;
+  max-height: 250px;
+  float: top right;
+  margin: 1% 5% 1% 5%;
+}
+
+.xvii {
+  margin: 3%;
+  border : 2px dashed salmon;
+  padding: 1%;
+  background: linear-gradient(#F1F1F1, lightgrey);
+}
+
+.xix {
+  margin: 3%;
+  border: 4px double black;
+  background: linear-gradient(white, #F1F1F1);
+  padding: 1%;
+  overflow: auto;
+  min-height: 50px;
+  max-height: 350px;
+}
+
+.xx {
+  margin: 3%;
+  border : 2px dashed salmon;
+  padding: 1%;
+  padding-bottom: 3%;
+  background: linear-gradient(to right, #F1F1F1, lightgrey);
+}
+
+.art1et2 {
+  display: inline-block;
+  margin: 1%;
+}
+
+.art1 , .art3 , .art5 {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2%;
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 5%;
+  clear: both;
+  overflow: auto;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+.art2 , .art4 , .art6 {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2%;
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 20%;
+  clear: both;
+  overflow: auto;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+#titreart {
+  color: salmon;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  border-bottom : 6px double salmon;
+  padding-bottom: 2%;
+}
+
+#titreart::first-letter {
+  font-size : 200%;
+}
+
+#evo {
+  padding-left: 10%;
+  width: 80%
+}
+
+#P1 {
+  display: none;
+}
+
+#def {
+  padding-left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+#boulier , #log {
+  padding-left: 10%;
+  width: 80%;
+  max-height: 80%;
+}
+
+#regle , #machine , #lieb {
+  margin-left: 65%;
+  width: 20%;
+  float: top right;
+}
+
+#babbage {
+ padding-left: 40%;
+ width: 20%
+}
+
+#machperf {
+ padding-left: 10%;
+ padding-right: 10%;
+ width: 80%;
+}
+
+#ldf , #enigma , #turing , #tores , #ramac , #intel , #apple , #ibm , #cxt {
+  padding-left: 35%;
+  width: 30%;
+}
+
+#herman , #eniac , #micral {
+  padding-left: 10%;
+  width: 80%;
+}
+
+#bug {
+  padding-left: 20%;
+  width: 60%;
+}
+
+#mark , #neumann , #souris {
+  padding-left: 30%;
+  width: 40%;
+}
+
+#figsou {
+  text-align: center;
+}
+
+#P2 , #P3 , #P4 , #P5 , #P6 , #P7 {
+  color: salmon;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  border-bottom : 6px double salmon;
+  padding-bottom: 2%;
+}
+
+#P2::first-letter {
+  font-size : 200%;
+}
+
+#P3::first-letter {
+  font-size : 200%;
+}
+
+#P4::first-letter {
+  font-size : 200%;
+}
+
+#P5::first-letter {
+  font-size : 200%;
+}
+
+#P6::first-letter {
+  font-size : 200%;
+}
+
+#P7::first-letter {
+  font-size : 200%;
+}
+
+/*---------- THOMAS ----------*/
+
+#titreSE {
+  text-align : center;
+  font-style : oblique;
+  text-transform : capitalize;
+  text-shadow: 1px 2px 3px black;
+  color : white;
+  border : 2px solid black;
+  padding : 2.5%;
+  background-image : url('Images/45.jpg');
+  background-position: center;
+  margin:8% 2% 2% 2%;
+  position: center;
+  box-shadow: 6px 6px 2px black;
+  font-size:1.4em;
+}
+
+.situation {
+  background-color: #FFCCCC;
+  font-style: italic;
+  color:salmon;
+}
+
+#imgSE {
+  max-width: 300px;
+  max-height: 300px;
+  margin:auto;
+  display:flex;
+}
+
+#sectionCOM #ARTSE {
+  border:1px solid salmon;
+  font-size: 1.1em;
+  line-height: 1.1em;
+  margin: auto;
+  width: 85%;
+  background-color: white;
+  padding: 20px;
+}
+
+#w1,#w2,#w3,#w4,#w5,#w6,#w7,#w8,#w9,#w10,#fed {
+  border:1px solid black;
+  max-width:80%;
+  padding:10px;
+  background:salmon;
+  color:white;
+  margin-left: 0;
+  font-size: 1.0em;
+}
+
+#H3SE {
+  color:red;
+  text-decoration: underline;
+}
+
+/*---------- DORIAN ----------*/
+
+#titreHI-h {
+  text-align : center;
+  font-style : oblique;
+  text-transform : capitalize;
+  text-shadow: 1px 1px 10px black;
+  text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+  color : white;
+  border : 2px solid black;
+  padding : 2.5%;
+  background-image : url('Images/navigateur.jpg');
+  background-size: contain;
+  margin:8% 2% 2% 2%;
+  position: center;
+  box-shadow: 6px 6px 2px black;
+  font-size:1.4em;
+}
+
+#def-h,#P2-h,#P3-h,#P4-h,#P5-h{
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 5px dotted black;
+  margin-bottom: 10px;
+}
+
+#def-h img{
+  max-width: 10%;
+  display: block;
+  margin-left: 65%;
+  border-radius: 50%
+}
+
+#P2-h{
+    padding-bottom: 11%;
+}
+
+#P2-h p{
+  text-align:left;
+  margin-left: 31%;
+  vertical-align: middle;
+  padding-top: 8%;
+}
+
+#P2-h img{
+  float: left;
+  width:30%;
+}
+
+#P3-h{
+  margin-bottom: 30px;
+  padding-bottom: 4%
+}
+
+#P3-h img{
+  max-width: 35%;
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 2px solid black
+}
+
+#P5-h {
+  padding-bottom:26%;
+}
+
+#P5-h img{
+  max-width: 35%;
+  float: right;
+  padding-right:5%
+}
+
+.imgint-h{
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*---------- KEMIL ----------*/
+
+#div-LP {
+  text-align : center;
+}
+
+#div-LP ul li {
+  display: inline-block;
+  border : 2px solid #4B444C;
+  background-color: salmon;
+  width: 150px;
+  height: 35px;
+  padding: 1%;
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+#div-LP li a {
+  text-align : center;
+  text-decoration : none;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  cursor: grab;
+}
+
+#entete-LP {
+  text-align : center;
+  font-style : oblique;
+  text-transform : capitalize;
+  text-shadow: 1px 2px 3px black;
+  color : white;
+  border : 2px solid black;
+  padding : 2.5%;
+  background-image : url('Images/langpro.png');
+  margin:8% 2% 2% 2%;
+  position: center;
+  box-shadow: 6px 6px 2px black;
+  font-size:1.4em;
+}
+
+#titreassemb-LP{
+  color : salmon;
+  border-bottom: 10px double salmon;
+  padding-bottom : 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+#p_assemb-LP{
+  border-radius: 6px;
+  background-color: #FFCCCC;
+  padding : 1%;
+}
+
+#assembimg-LP{
+  margin : 1%;
+  height : 500px;
+  margin-left : 20%;
+}
+
+#C-LP{
+  padding-bottom: 32.5%;
+  width : 35%;
+}
+
+#titreC-LP{
+  color : #227dd3;
+  border-bottom: 10px double #227dd3;
+  padding-bottom : 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+#imgC-LP{
+  width : 20%;
+  margin-left : 40%;
+}
+
+#imgC2-LP{
+  border : 4px dotted #227dd3;
+  width : 80%;
+  padding : 5px;
+  margin-left : 10%;
+}
+
+#p_C-LP{
+  border-radius: 6px;
+  background-color: #62b3ff;
+  padding : 1%;
+}
+
+#java-LP{
+  margin-top : 51.5%;
+}
+
+#titrejava-LP{
+  color :  #ff9824;
+  border-bottom: 10px double  #ff9824;
+  padding-bottom : 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+#imgjava-LP{
+  border : 4px dotted #ff9824;
+  width : 40%;
+  padding : 5px;
+  margin-left : 5%;
+}
+
+#p_java-LP{
+  border-radius: 6px;
+  background-color: #febd73;
+  padding : 1%;
+}
+
+#html-LP{
+  padding-bottom: 15%;
+}
+
+#php-LP{
+  padding-bottom: 10%;
+}
+
+#sql-LP{
+  padding-bottom: 18%;
+}
+
+#conclu-LP{
+  margin-top : 132.5%;
+}
+
+#div2-LP{
+  width : 15%;
+  margin-left : 40%;
+}
+
+#div2-LP nav ul{
+  list-style-type: none;
+}
+
+#div2-LP nav ul li{
+  background-color : #FFCCCC;
+  padding : 4px;
+  border-radius: 6px;
+  text-align : center;
+}
+
+.article-LP{
+  background : lightgrey;
+  border-radius: 6px;
+  box-shadow: 6px 6px 2px rgba(0,0,0,0.4);
+  padding : 2%;
+  margin : 5px;
+}
+
+.gauche-LP{
+  padding: 1%;
+  width: 40%;
+  min-height: 40px;
+  max-height: 250px;
+  float: left;
+  margin: 1% 5% 1%  5%;
+}
+
+.droite-LP {
+  padding: 1%;
+  width: 40%;
+  min-height: 40px;
+  max-height: 250px;
+  float: right;
+  margin: 1% 5% 1% 5%;
+}
+
+.milieu-LP{
+  width : 40%;
+  margin-left : 30%;
+}
+
+.prgmassemb-LP{
+  border : 4px dotted salmon;
+  padding : 5px;
+}
